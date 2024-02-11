@@ -1,0 +1,34 @@
+import 'package:flutter/material.dart';
+import 'package:App_SHe/app.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Color.fromARGB(255, 54, 54, 54),
+        
+      ),
+    );
+    home:
+    const App();
+  }
+}
+
+
+
+        leading: IconButton(
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
+          icon: const Icon(
+            Icons.toggle_off,
+            size: 35,
+          ),
+        ),//////// Backer 

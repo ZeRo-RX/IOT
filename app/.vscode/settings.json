@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#5E0C0F",
+        "titleBar.activeBackground": "#841115",
+        "titleBar.activeForeground": "#FEFBFB"
+    },
+    "cmake.sourceDirectory": "G:/Git/Git_Hub/Electronic/IOT/app/linux"
+}
